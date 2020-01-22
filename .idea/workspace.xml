@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b5c1c71-8ddc-49fc-947b-bd42c2c24d91" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WcGOgxnx5w2Jig88eXRkPRYMAt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\TesteQA\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: CadastrarPessoaPOST" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CadastrarPessoaPOST.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TesteQA" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: CadastrarPessoaPOST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: ConsultarPessoaGET" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ConsultarPessoaGET.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TesteQA" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: ConsultarPessoaGET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Consultar um cadastro de uma pessoa com DDD inexistente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ConsultarPessoaGET.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TesteQA" />
+      <option name="NAME_FILTER" value="^Consultar um cadastro de uma pessoa com DDD inexistente$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Consultar um cadastro de uma pessoa com DDD inexistente$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Consultar um cadastro de uma pessoa com DDD inexistente" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Consultar um cadastro de uma pessoa pelo DDD e Telefone validos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ConsultarPessoaGET.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TesteQA" />
+      <option name="NAME_FILTER" value="^Consultar um cadastro de uma pessoa pelo DDD e Telefone validos$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Consultar um cadastro de uma pessoa pelo DDD e Telefone validos$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Consultar um cadastro de uma pessoa pelo DDD e Telefone validos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteQA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber java.Scenario: Consultar um cadastro de uma pessoa pelo DDD e Telefone validos" />
+        <item itemvalue="Cucumber java.Feature: CadastrarPessoaPOST" />
+        <item itemvalue="Cucumber java.Feature: ConsultarPessoaGET" />
+        <item itemvalue="Cucumber java.Scenario: Consultar um cadastro de uma pessoa com DDD inexistente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b5c1c71-8ddc-49fc-947b-bd42c2c24d91" name="Default Changelist" comment="" />
+      <created>1579441442240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579441442240</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579442097442">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="435" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1579442097442" />
+    <state width="1323" height="464" key="GridCell.Tab.0.bottom" timestamp="1579657721313">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579657721313" />
+    <state width="1323" height="464" key="GridCell.Tab.0.center" timestamp="1579657721313">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579657721313" />
+    <state width="1323" height="464" key="GridCell.Tab.0.left" timestamp="1579657721313">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579657721313" />
+    <state width="1323" height="464" key="GridCell.Tab.0.right" timestamp="1579657721313">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="464" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579657721313" />
+    <state width="1323" height="308" key="GridCell.Tab.1.bottom" timestamp="1579647864534">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="308" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579647864534" />
+    <state width="1323" height="308" key="GridCell.Tab.1.center" timestamp="1579647864534">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="308" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1579647864534" />
+    <state width="1323" height="308" key="GridCell.Tab.1.left" timestamp="1579647864534">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="308" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1579647864534" />
+    <state width="1323" height="308" key="GridCell.Tab.1.right" timestamp="1579647864534">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="308" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1579647864534" />
+    <state x="184" y="12" key="SettingsEditor" timestamp="1579442267254">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579442267254" />
+    <state x="384" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1579643203616">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="384" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1579643203616" />
+    <state x="65" y="65" key="new project wizard" timestamp="1579457395219">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="65" y="65" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1579457395219" />
+  </component>
+</project>
