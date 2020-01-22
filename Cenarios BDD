@@ -1,0 +1,57 @@
+Funcionalidade : API para registrar uma pessoa e seus dados (POST) e consultar uma pessoa registrada pelo 
+número do seu telefone (GET )
+
+  Cenário : Cadastrar uma pessoa com CPF e Telefone validos
+    Dado que estou com JASON com DDD, Telefone e CPF e outras informações preenchidas
+    Quando realizar uma operação POST
+    Então a requisito deverá retornar código "201"
+    E   JSON com todas as informações cadastradas
+	
+  Cenário : Cadastrar pessoa com CPF e Telefone já cadastrados
+    Dado que estou com JASON com DDD, Telefone e CPF e outras informações preenchidas
+    Quando realizar uma operação POST
+    Então a requisito deverá retornar código "400"
+    E   mensagem de aviso que o CPF já esta cadastrado 
+
+  Cenário : Cadastrar uma pessoa com o CPF já cadastrado
+    Dado que estou com JASON com DDD, Telefone e CPF preenchidos, com CPF já cadastrado
+    Quando realizar uma operação POST
+    Então a requisito deve retornar código com Status "400"
+	  E  mensagem de aviso que o CPF já esta cadastrado 
+
+  Cenário : Cadastrar uma pessoa com o Telefone já cadastrado
+    Dado que estou com JASON com DDD, Telefone e CPF preenchido, com Telefone já cadastrado
+    Quando realizar uma operação POST
+    Então a requisito deve retornar código com Status "400"
+	  E  mensagem de aviso que o Telefone já esta cadastrado 
+  
+  #É preciso que o backand também valide se o CPF é valido não só Front  
+  Cenário : Cadastrar uma pessoa com o CPF invalido
+    Dado que estou com JASON com DDD, Telefone e CPF preenchidos, com CPF já cadastrado
+    Quando realizar uma operação POST
+    Então a requisito deve retornar código com Status "400"
+	E  mensagem de aviso que o CPF esta invalido
+
+  Cenário : Consultar um cadastro de uma pessoa pelo DDD e telefones válidos
+    Dado que estou com DDD e Telefone já cadastrado na base
+    Quando fazer uma operação GET
+    Então a requisito deverá retornar código "200"
+   	E JSON com todas as informações do numero consultado
+
+  Cenário : consulte um cadastro de uma pessoa pelo DDD e um telefone inexistente
+    Dado que estou com DDD e Telefone não cadastrado na base
+    Quando fazer uma operação GET
+    Então a requisito deverá retornar código "404"
+	  E  mensagem de aviso que o Telefone não existe
+
+  Cenário : Consultar um cadastro de uma pessoa com DDD inexistente
+    Dado que estou com o telefone cadastrado na base e DDD inexistente
+    Quando fazer uma operação GET
+    Então a requisito deverá retornar código "404"
+	  E  mensagem de aviso que o Telefone não existe
+	
+  Cenário : Consultar um cadastro de uma pessoa com Telefone inexistente
+    Dado que estou com o DDD cadastrado na base e Telefone inexistente
+    Quando fazer uma operação GET
+    Então a requisito deverá retornar código "404"
+  	E  mensagem de aviso que o Telefone não existe
