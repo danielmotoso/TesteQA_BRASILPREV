@@ -1,3 +1,5 @@
+package TesteQA_BRASILPREV;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,40 +13,22 @@ import static io.restassured.RestAssured.given;
 
 import org.hamcrest.Matchers;
 
-public class Metodos {
+public class CenariosMetodos {
     private String uri = null;
     private Response resposta = null;
     private ValidatableResponse validacao = null;
     private String json = null;
     ValidatableResponse responsePost = null;
-    
+
     ArquivoJSON arquivoJSON = new ArquivoJSON();
 
     @Given("^que estou com JASON com DDD \"([^\"]*)\", Telefone \"([^\"]*)\" e CPF \"([^\"]*)\" e as demais informacoes preenchidas$")
     public void que_estou_com_JASON_com_DDD_Telefone_e_CPF_e_as_demais_informacoes_preenchidas(String ddd, String telefone, String cpf) throws Throwable {
-           
-        json = arquivoJSON.trazerArquivo(dd,telefone,cpf);
-            
+
+        json = arquivoJSON.trazerArquivo(ddd, telefone, cpf);
         // throw new PendingException();
-    
-    }      
-        
-        /*
-        json = "{ \"codigo\": 0, \n" +
-                "\"nome\": \"Daniel Silva Motoso\", \n" +
-                "\"cpf\": \"" + cPF + "\", \n" +
-                "\"enderecos\": [ { \n" +
-                "\t\"logradouro\": \"Daniel Silva Motoso\",\n" +
-                "\t\"numero\": 123, \n" +
-                "\t\"complemento\": \"Empresa\",\n" +
-                "\t\"bairro\": \"Chacara Santo Antonio\", \n" +
-                "\t\"cidade\": \"São Paulo\", \n" +
-                "\t\"estado\": \"SP\" } ], \n" +
-                "\"telefones\": [ { \n" +
-                "\t\"ddd\": \"" + dDD + "\",\n" +
-                "\t\"numero\": \"" + telefone + "\"}] }"; 
-          */
-      
+
+    }
 
     @When("^fizer a operacao POST$")
     public void fizer_a_operacao_POST() throws Throwable {
@@ -71,17 +55,15 @@ public class Metodos {
     public void o_nome_no_corpo_da_resposta(String arg1) throws Throwable {
         validacao = responsePost.and()
                 .body(Matchers.containsString(arg1));
-
         //throw new PendingException();
     }
 
     @Given("^que estou com JASON com DDD \"([^\"]*)\", Telefone \"([^\"]*)\" e CPF \"([^\"]*)\" preenchidas, com CPF já cadastrado$")
     public void que_estou_com_JASON_com_DDD_Telefone_e_CPF_preenchidas_com_CPF_já_cadastrado(String ddd, String telefone, String cpf) throws Throwable {
-           
-        json = arquivoJSON.trazerArquivo(dd,telefone,cpf);
-            
+
+        json = arquivoJSON.trazerArquivo(ddd, telefone, cpf);
         // throw new PendingException();
-    
+
     }
 
     @Then("^a requisicao deverar retornar codigo com Status \"([^\"]*)\"$")
@@ -92,11 +74,10 @@ public class Metodos {
 
     @Given("^que estou com JASON com DDD \"([^\"]*)\", Telefone \"([^\"]*)\" e CPF \"([^\"]*)\" preenchidas, com Telefone já cadastrado$")
     public void que_estou_com_JASON_com_DDD_Telefone_e_CPF_preenchidas_com_Telefone_já_cadastrado(String ddd, String telefone, String cpf) throws Throwable {
-           
-        json = arquivoJSON.trazerArquivo(dd,telefone,cpf);
-            
+
+        json = arquivoJSON.trazerArquivo(ddd, telefone, cpf);
         // throw new PendingException();
-    
+
     }
 
     @Given("^que estou com DDD \"([^\"]*)\" e Telefone \"([^\"]*)\" já cadastrados na base$")
@@ -140,6 +121,20 @@ public class Metodos {
     public void que_estou_com_DD_cadastrado_na_base_e_Telefone_inexistente(String dd, String telefone) throws Throwable {
         uri = "http://localhost:8080/pessoas/" + dd + "/" + telefone;
         // throw new PendingException();
+    }
+
+    @Given("^que estou com JASON com DDD \"([^\"]*)\", Telefone\"([^\"]*)\" validos e CPF \"([^\"]*)\" invalido$")
+    public void que_estou_com_JASON_com_DDD_Telefone_validos_e_CPF_invalido(String ddd, String telefone, String cpf) throws Throwable {
+
+        json = arquivoJSON.trazerArquivo(ddd, telefone, cpf);
+        //throw new PendingException();
+    }
+
+    @Given("^que estou com JASON com DDD \"([^\"]*)\" e Telefone \"([^\"]*)\" em branco e CPF \"([^\"]*)\" preenchido$")
+    public void que_estou_com_JASON_com_DDD_e_Telefone_em_branco_e_CPF_preenchido(String ddd, String telefone, String cpf) throws Throwable {
+
+        json = arquivoJSON.trazerArquivo(ddd, telefone, cpf);
+        //throw new PendingException();
     }
 
 }
