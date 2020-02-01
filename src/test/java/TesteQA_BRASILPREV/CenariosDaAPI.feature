@@ -25,7 +25,7 @@ Feature: API para cadastrar uma pessoa e seus dados (POST) e consultar uma pesso
   Scenario: Cadastrar uma pessoa com DDD e Telefone em branco no JSON
     Given que estou com JASON com DDD "   " e Telefone "  " em branco e CPF "39501366065" preenchido
     When  fizer a operacao POST
-    Then  a requisicao deverar retornar codigo com Status "200"
+    Then  a requisicao deverar retornar codigo com Status "400"
 
   Scenario: Consultar um cadastro de uma pessoa pelo DDD e Telefone validos
     Given que estou com DDD "11" e Telefone "900000010" já cadastrados na base

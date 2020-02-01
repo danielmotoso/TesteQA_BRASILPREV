@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5c1c71-8ddc-49fc-947b-bd42c2c24d91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TesteQA_Cenarios BDD.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TesteQA_Test_Report_( BUGs e Observações ).docx.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cenarios BDD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArquivoJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/ArquivoJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CenariosBDD.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/CenariosDaAPI.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Metodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/CenariosMetodos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ArquivoJSON.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Metodos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/CenariosDaAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/CenariosDaAPI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TesteQA_BRASILPREV/Metodos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TesteQA_BRASILPREV/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TesteQA_BRASILPREV/Runner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TimeSheetBot" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -64,6 +57,24 @@
       <module name="TesteQA" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: CenariosBDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: CenariosDaAPI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/TesteQA_BRASILPREV/CenariosDaAPI.feature" />
+      <option name="GLUE" value="TesteQA_BRASILPREV" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TesteQA" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: CenariosDaAPI" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -110,7 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TesteQA_BRASILPREV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TesteQA_BRASILPREV" />
+      <option name="MAIN_CLASS_NAME" value="TesteQA_BRASILPREV.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TesteQA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Runner" />
@@ -137,7 +163,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner (1)" />
-        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber java.Feature: CenariosDaAPI" />
         <item itemvalue="Cucumber java.Feature: CenariosBDD" />
         <item itemvalue="Cucumber java.Scenario: Cadastrar uma pessoa com o CPF invalido" />
         <item itemvalue="Cucumber java.Scenario: Cadastrar uma pessoa com DDD e Telefone em branco no JSON" />
@@ -174,46 +200,50 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="435" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1579442097442" />
-    <state width="1323" height="517" key="GridCell.Tab.0.bottom" timestamp="1579738887284">
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1580080955623">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="517" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579738887284" />
-    <state width="1323" height="517" key="GridCell.Tab.0.center" timestamp="1579738887284">
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580080955623" />
+    <state width="1323" height="517" key="GridCell.Tab.0.bottom" timestamp="1580081215459">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="517" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579738887284" />
-    <state width="1323" height="517" key="GridCell.Tab.0.left" timestamp="1579738887284">
+    <state width="1323" height="517" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580081215459" />
+    <state width="1323" height="517" key="GridCell.Tab.0.center" timestamp="1580081215459">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="517" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579738887284" />
-    <state width="1323" height="517" key="GridCell.Tab.0.right" timestamp="1579738887284">
+    <state width="1323" height="517" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580081215459" />
+    <state width="1323" height="517" key="GridCell.Tab.0.left" timestamp="1580081215459">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="517" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579738887284" />
-    <state width="1323" height="308" key="GridCell.Tab.1.bottom" timestamp="1579734446946">
+    <state width="1323" height="517" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580081215459" />
+    <state width="1323" height="517" key="GridCell.Tab.0.right" timestamp="1580081215459">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579734446946" />
-    <state width="1323" height="308" key="GridCell.Tab.1.center" timestamp="1579734446946">
+    <state width="1323" height="517" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580081215459" />
+    <state width="1323" height="308" key="GridCell.Tab.1.bottom" timestamp="1579744145113">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1579734446946" />
-    <state width="1323" height="308" key="GridCell.Tab.1.left" timestamp="1579734446946">
+    <state width="1323" height="308" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579744145113" />
+    <state width="1323" height="308" key="GridCell.Tab.1.center" timestamp="1579744145113">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1579734446946" />
-    <state width="1323" height="308" key="GridCell.Tab.1.right" timestamp="1579734446946">
+    <state width="1323" height="308" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1579744145113" />
+    <state width="1323" height="308" key="GridCell.Tab.1.left" timestamp="1579744145113">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1579734446946" />
+    <state width="1323" height="308" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1579744145113" />
+    <state width="1323" height="308" key="GridCell.Tab.1.right" timestamp="1579744145113">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="308" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1579744145113" />
     <state x="184" y="12" key="SettingsEditor" timestamp="1579659373794">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579659373794" />
-    <state x="384" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1579732953204">
+    <state x="384" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580080388317">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="384" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1579732953204" />
+    <state x="384" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580080388317" />
     <state x="65" y="65" key="new project wizard" timestamp="1579457395219">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
