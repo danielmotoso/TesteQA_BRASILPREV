@@ -1,0 +1,6 @@
+------------------------------------------------------------------------------
+Antes de executar os testes é preciso subir a aplicação!!!
+------------------------------------------------------------------------------
+Arquivo de BUGs ------------> "TesteQA_Test_Report_( BUGs e Observações ).docx"
+Arquivo de Cenarios --------> "TesteQA_Cenarios_Funcionais.txt"
+------------------------------------------------------------------------------
